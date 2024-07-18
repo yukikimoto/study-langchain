@@ -6,7 +6,7 @@ from langchain_openai import AzureChatOpenAI
 
 # Azure Chat OpenAIのクライアントを作成
 llm = AzureChatOpenAI(
-    azure_deployment=os.environ['AXURE_DEPLOYMENT_NAME'], # Azureリソースのデプロイメント名
+    azure_deployment=os.environ['AZURE_DEPLOYMENT_NAME'], # Azureリソースのデプロイメント名
     api_version="2024-06-01", # azure openaiのAPIバージョン
     temperature=0,
     max_tokens=None,

@@ -3,4 +3,9 @@ python-dotenv
 
 # LangChain用
 langchain
+langchain-community
 langchain-openai
+
+# retrieval用
+pypdf 
+chromadb
