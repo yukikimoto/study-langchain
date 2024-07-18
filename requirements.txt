@@ -1,0 +1,6 @@
+# 環境変数の設定用
+python-dotenv
+
+# LangChain用
+langchain
+langchain-openai
